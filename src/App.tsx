@@ -1,4 +1,4 @@
-import './App.css'
+import "./App.css";
 
 function App() {
   return (
@@ -9,16 +9,19 @@ function App() {
           <h1 className="hero-title">
             Hi, I'm <span className="highlight">Derek Lee</span>
           </h1>
-          <p className="hero-subtitle">
-            Software Developer at Amazon KDP
-          </p>
+          <p className="hero-subtitle">Software Developer at Amazon KDP</p>
           <p className="hero-description">
-            Computer Science graduate from Cal Poly SLO with 2+ years of experience building 
-            scalable applications used by millions of users worldwide.
+            Computer Science graduate from Cal Poly SLO with 2+ years of
+            experience building scalable applications used by millions of users
+            worldwide.
           </p>
           <div className="hero-buttons">
-            <a href="#projects" className="btn btn-primary">View My Work</a>
-            <a href="#contact" className="btn btn-secondary">Get In Touch</a>
+            <a href="#projects" className="btn btn-primary">
+              View My Work
+            </a>
+            <a href="#contact" className="btn btn-secondary">
+              Get In Touch
+            </a>
           </div>
         </div>
       </section>
@@ -30,14 +33,17 @@ function App() {
           <div className="about-content">
             <div className="about-text">
               <p>
-                I'm a Computer Science graduate from Cal Poly SLO with a 3.9 GPA, having graduated in June 2025. 
-                I currently work as a Software Developer at Amazon Kindle Direct Publishing, where I 
-                enhance and maintain the E-book publishing interface used by millions of authors worldwide.
+                I'm a Computer Science graduate from Cal Poly SLO with a 3.9
+                GPA, having graduated in June 2025. I currently work as a
+                Software Developer at Amazon Kindle Direct Publishing, where I
+                enhance and maintain the E-book publishing interface used by
+                millions of authors worldwide.
               </p>
               <p>
-                I have experience building scalable backend services, modernizing legacy workflows, 
-                and developing automated systems that improve efficiency and user satisfaction. 
-                I'm passionate about creating solutions that make a real impact.
+                I have experience building scalable backend services,
+                modernizing legacy workflows, and developing automated systems
+                that improve efficiency and user satisfaction. I'm passionate
+                about creating solutions that make a real impact.
               </p>
             </div>
             <div className="about-stats">
@@ -70,10 +76,22 @@ function App() {
                 <span className="duration">Jul 2025 - Present</span>
               </div>
               <ul className="experience-details">
-                <li>Enhanced and maintained the KDP E-book publishing interface used by millions of authors worldwide</li>
-                <li>Owned and optimized backend services supporting E-book data processing and metadata management</li>
-                <li>Designed and deployed high-impact author-facing features, increasing publishing efficiency</li>
-                <li>Collaborated across cross-functional teams to modernize legacy workflows with AWS-native solutions</li>
+                <li>
+                  Enhanced and maintained the KDP E-book publishing interface
+                  used by millions of authors worldwide
+                </li>
+                <li>
+                  Owned and optimized backend services supporting E-book data
+                  processing and metadata management
+                </li>
+                <li>
+                  Designed and deployed high-impact author-facing features,
+                  increasing publishing efficiency
+                </li>
+                <li>
+                  Collaborated across cross-functional teams to modernize legacy
+                  workflows with AWS-native solutions
+                </li>
               </ul>
             </div>
             <div className="experience-item">
@@ -83,9 +101,18 @@ function App() {
                 <span className="duration">Sep 2023 - Jun 2025</span>
               </div>
               <ul className="experience-details">
-                <li>Modernized multi-step conversion workflow using AWS Step Functions, Lambda, DynamoDB, and SNS</li>
-                <li>Designed automated metadata extraction pipeline to streamline author onboarding</li>
-                <li>Developed 20+ system integration test packages, increasing release confidence</li>
+                <li>
+                  Modernized multi-step conversion workflow using AWS Step
+                  Functions, Lambda, DynamoDB, and SNS
+                </li>
+                <li>
+                  Designed automated metadata extraction pipeline to streamline
+                  author onboarding
+                </li>
+                <li>
+                  Developed 20+ system integration test packages, increasing
+                  release confidence
+                </li>
               </ul>
             </div>
             <div className="experience-item">
@@ -95,8 +122,14 @@ function App() {
                 <span className="duration">May 2021 - Oct 2021</span>
               </div>
               <ul className="experience-details">
-                <li>Built fully automated web solution for managing and scoring live wrestling tournaments</li>
-                <li>Directed three real-time tournaments with 300+ participants across Cupertino Union School District</li>
+                <li>
+                  Built fully automated web solution for managing and scoring
+                  live wrestling tournaments
+                </li>
+                <li>
+                  Directed three real-time tournaments with 300+ participants
+                  across Cupertino Union School District
+                </li>
               </ul>
             </div>
           </div>
@@ -109,7 +142,10 @@ function App() {
           <h2 className="section-title">Skills & Technologies</h2>
           <div className="skills-content">
             <div className="skills-text">
-              <p>I work with a variety of technologies to build scalable applications and solve complex problems.</p>
+              <p>
+                I work with a variety of technologies to build scalable
+                applications and solve complex problems.
+              </p>
             </div>
             <div className="skills-grid">
               <div className="skill-category">
@@ -151,7 +187,7 @@ function App() {
       {/* Projects Section */}
       <section id="projects" className="projects">
         <div className="container">
-          <h2 className="section-title">Featured Project</h2>
+          <h2 className="section-title">Featured Projects</h2>
           <div className="project-showcase">
             <div className="project-card">
               <div className="project-image">
@@ -160,9 +196,10 @@ function App() {
               <div className="project-content">
                 <h3>Cal Poly Maps</h3>
                 <p className="project-description">
-                  Developed an interactive campus map to help students find the fastest routes between classes. 
-                  Implemented real-time location tracking, route optimization, intelligent search, building popups, 
-                  and detailed building information.
+                  Developed an interactive campus map to help students find the
+                  fastest routes between classes. Implemented real-time location
+                  tracking, route optimization, intelligent search, building
+                  popups, and detailed building information.
                 </p>
                 <div className="project-tech">
                   <span>Next.js</span>
@@ -171,8 +208,49 @@ function App() {
                   <span>Mapbox</span>
                 </div>
                 <div className="project-links">
-                  <a href="https://cal-poly-map.vercel.app/" target="_blank" rel="noopener noreferrer" className="project-link">
+                  <a
+                    href="https://cal-poly-map.vercel.app/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="project-link"
+                  >
                     View Live Site
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div className="project-card">
+              <div className="project-image">
+                <div className="project-placeholder">🛒</div>
+              </div>
+              <div className="project-content">
+                <h3>Stocked</h3>
+                <p className="project-description">
+                  A simple, easy-to-use webapp to keep track of your grocery
+                  lists and share them with other users. Working on implementing
+                  a smart recipe-to-list feature, allowing users to form a
+                  grocery list through a recipe link!
+                </p>
+                <div className="project-tech">
+                  <span>React</span>
+                  <span>TypeScript</span>
+                </div>
+                <div className="project-links">
+                  <a
+                    href="https://stocked-app.vercel.app/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="project-link"
+                  >
+                    View Live Site
+                  </a>
+                  <a
+                    href="https://github.com/deweklee/Stocked"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="project-link"
+                  >
+                    GitHub
                   </a>
                 </div>
               </div>
@@ -188,12 +266,17 @@ function App() {
           <div className="contact-content">
             <div className="contact-text">
               <p>
-                I'm always interested in new opportunities and exciting projects. 
-                Feel free to reach out if you'd like to collaborate or just say hello!
+                I'm always interested in new opportunities and exciting
+                projects. Feel free to reach out if you'd like to collaborate or
+                just say hello!
               </p>
             </div>
             <div className="contact-links">
-              <a href="/src/assets/Derek Lee's Resume (10_04_2025) (3).pdf" download className="contact-link">
+              <a
+                href="/src/assets/Derek Lee's Resume (10_04_2025) (3).pdf"
+                download
+                className="contact-link"
+              >
                 <span className="contact-icon">📄</span>
                 Download Resume
               </a>
@@ -213,7 +296,7 @@ function App() {
         </div>
       </footer>
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
