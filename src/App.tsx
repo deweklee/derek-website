@@ -148,17 +148,62 @@ function App() {
               </p>
             </div>
             <div className="skills-grid">
+              {/* Languages */}
               <div className="skill-category">
                 <h3>Languages</h3>
                 <div className="skill-tags">
-                  <span className="skill-tag">Java</span>
                   <span className="skill-tag">Python</span>
+                  <span className="skill-tag">Java</span>
                   <span className="skill-tag">C</span>
+                  <span className="skill-tag">C++</span>
+                  <span className="skill-tag">Go</span>
+                  <span className="skill-tag">Kotlin</span>
                   <span className="skill-tag">JavaScript</span>
                   <span className="skill-tag">TypeScript</span>
-                  <span className="skill-tag">Kotlin</span>
                 </div>
               </div>
+
+              {/* Systems & Backend */}
+              <div className="skill-category">
+                <h3>Systems & Backend</h3>
+                <div className="skill-tags">
+                  <span className="skill-tag">Distributed Systems</span>
+                  <span className="skill-tag">Microservices</span>
+                  <span className="skill-tag">REST APIs</span>
+                  <span className="skill-tag">Event-Driven Architectures</span>
+                  <span className="skill-tag">High-Throughput Services</span>
+                  <span className="skill-tag">Fault Tolerance</span>
+                </div>
+              </div>
+
+              {/* Cloud & DevOps */}
+              <div className="skill-category">
+                <h3>Cloud & DevOps</h3>
+                <div className="skill-tags">
+                  <span className="skill-tag">AWS</span>
+                  <span className="skill-tag">Lambda</span>
+                  <span className="skill-tag">DynamoDB</span>
+                  <span className="skill-tag">SNS</span>
+                  <span className="skill-tag">Step Functions</span>
+                  <span className="skill-tag">CI/CD</span>
+                  <span className="skill-tag">Linux</span>
+                </div>
+              </div>
+
+              {/* Data & Reliability */}
+              <div className="skill-category">
+                <h3>Data & Reliability</h3>
+                <div className="skill-tags">
+                  <span className="skill-tag">PostgreSQL</span>
+                  <span className="skill-tag">NoSQL</span>
+                  <span className="skill-tag">Data Modeling</span>
+                  <span className="skill-tag">Integration Testing</span>
+                  <span className="skill-tag">Observability</span>
+                  <span className="skill-tag">System Testing</span>
+                </div>
+              </div>
+
+              {/* Frontend */}
               <div className="skill-category">
                 <h3>Frontend</h3>
                 <div className="skill-tags">
@@ -168,14 +213,15 @@ function App() {
                   <span className="skill-tag">Mapbox</span>
                 </div>
               </div>
+
+              {/* Tools & Platforms */}
               <div className="skill-category">
-                <h3>Cloud & Tools</h3>
+                <h3>Tools & Platforms</h3>
                 <div className="skill-tags">
-                  <span className="skill-tag">AWS</span>
-                  <span className="skill-tag">Lambda</span>
-                  <span className="skill-tag">DynamoDB</span>
-                  <span className="skill-tag">Step Functions</span>
-                  <span className="skill-tag">CI/CD</span>
+                  <span className="skill-tag">Supabase</span>
+                  <span className="skill-tag">PostgreSQL</span>
+                  <span className="skill-tag">Git</span>
+                  <span className="skill-tag">GitHub</span>
                   <span className="skill-tag">Google APIs</span>
                 </div>
               </div>
