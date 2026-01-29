@@ -12,8 +12,8 @@ function App() {
           <p className="hero-subtitle">Software Developer at Amazon KDP</p>
           <p className="hero-description">
             Computer Science graduate from Cal Poly SLO with 2+ years of
-            experience building scalable applications used by millions of users
-            worldwide.
+            experience delivering production-grade backend and full-stack
+            systems in fast-paced, high-ownership environments.
           </p>
           <div className="hero-buttons">
             <a href="#projects" className="btn btn-primary">
@@ -55,10 +55,6 @@ function App() {
                 <h3>2+</h3>
                 <p>Years Experience</p>
               </div>
-              <div className="stat">
-                <h3>Millions</h3>
-                <p>Users Impacted</p>
-              </div>
             </div>
           </div>
         </div>
@@ -77,12 +73,13 @@ function App() {
               </div>
               <ul className="experience-details">
                 <li>
-                  Enhanced and maintained the KDP E-book publishing interface
-                  used by millions of authors worldwide
+                  Enhanced and maintained the KDP E-book publishing interface,
+                  providing authors a smooth and easy-to-use product.
                 </li>
                 <li>
-                  Owned and optimized backend services supporting E-book data
-                  processing and metadata management
+                  Owned and delivered production backend services supporting
+                  real-time content ingestion and metadata workflows at global
+                  scale.
                 </li>
                 <li>
                   Designed and deployed high-impact author-facing features,
@@ -91,6 +88,11 @@ function App() {
                 <li>
                   Collaborated across cross-functional teams to modernize legacy
                   workflows with AWS-native solutions
+                </li>
+                <li>
+                  Participated in on-call rotation, diagnosing production issues
+                  and restoring service reliability with minimal customer
+                  impact.
                 </li>
               </ul>
             </div>
@@ -127,8 +129,8 @@ function App() {
                   live wrestling tournaments
                 </li>
                 <li>
-                  Directed three real-time tournaments with 300+ participants
-                  across Cupertino Union School District
+                  Directed real-time middle school tournaments with 300+
+                  participants across Cupertino Union School District
                 </li>
               </ul>
             </div>
